@@ -1,0 +1,29 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Usar Flexbox para el diseño */
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Contenido que crece para llenar el espacio disponible */
+.content {
+    flex: 1; /* Ocupa todo el espacio restante */
+    padding: 20px;
+}
+
+/* Estilo del footer */
+footer {
+    background-color: #343a40; /* Fondo oscuro */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.img-thumbnail-small {
+    width: 100px;
+}
